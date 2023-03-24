@@ -19,6 +19,7 @@ banner:
     icon: ri:arrow-down-s-line
 reward:
   enable: false
+  
 #  comment: 我很可爱，请给我钱
 #  methods:
 #    - name: 支付宝
@@ -34,13 +35,12 @@ reward:
 #      color: '#2DC100'
 #      icon: ri:wechat-pay-line
 
-#comment:
+# comment:
 #  candidates:
 #    - waline
-#    # - giscus
+#    - giscus
 #  tips:
-#    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
-
+#    - 欢迎交流
 #waline:
 #  enable: true
 #  serverURL: https://waline.yunyoujun.cn
@@ -56,6 +56,9 @@ reward:
 
 github_issues:
   enable: false
+
+wordcloud:
+  enable: true
 
 github_discussions:
   enable: false
